@@ -1,5 +1,5 @@
 //購物金額
-let 衣服=300;
+let 衣服=200;
 let 件數=7;
 let 褲子=700;
 let 折扣=0.6;
@@ -42,7 +42,7 @@ for(let i=0;i<成績.length;i++){
 function sayhi(name){
     console.log(`${name} hello`);
 }
-sayhi('cecilia');
+
 
 const 清單=document.querySelector('.清單');
 const 文字欄=document.querySelector('.文字欄');
@@ -53,6 +53,7 @@ const 按鈕=document.querySelector('.按鈕');
 文字欄.addEventListener('keyup',function(e){
     if(e.key==='Enter'){
         新任務();
+        sayhi('cecilia');
     }
 });
 
